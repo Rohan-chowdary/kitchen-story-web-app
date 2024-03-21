@@ -1,0 +1,205 @@
+/*--------------------
+// Description: RealFood - Food Community
+// Author: Wicombit
+// Author URI: https://wicombit.com
+--------------------*/
+
+/* CUSTOM */
+
+.verify-badge{
+    margin-left: 0;
+    margin-right: 6px; 
+}
+
+.tas_card_1 .tas_rating span, .tas_card_2 .tas_rating span, .tas_card_4 .tas_rating span{
+    margin-left: 0;
+    margin-right: 6px;
+}
+
+.tas_card_1 .tas_icon, .tas_card_4 .tas_icon, .tas_card_2 .tas_icon{
+    margin-left: 5px;
+    margin-right: 0;   
+}
+
+.ti-chevron-right:before{
+    content: "\ea60" !important;
+}
+
+.ti-chevron-left:before{
+    content: "\ea61" !important;
+}
+
+.uk-form-icon-flip ~ .uk-input{
+    padding-right: 60px !important;
+}
+
+/* END CUSTOM */
+
+.uk-heading-line>::before{right:100%;margin-right:calc(5px + .3em)}
+.uk-heading-line>::after{left:100%;right:inherit;margin-left:calc(5px + .3em)}
+
+.uk-grid + .uk-grid-small, .uk-grid + .uk-grid-row-small, .uk-grid-small > .uk-grid-margin, .uk-grid-row-small > .uk-grid-margin, * + .uk-grid-margin-small{
+    margin-top: 30px;
+}
+
+* + h1, * + .uk-h1, * + h2, * + .uk-h2, * + h3, * + .uk-h3, * + h4, * + .uk-h4, * + h5, * + .uk-h5, * + h6, * + .uk-h6, * + .uk-heading-small, * + .uk-heading-medium, * + .uk-heading-large, * + .uk-heading-xlarge, * + .uk-heading-2xlarge{
+	letter-spacing: 0 !important;
+}
+
+.uk-text-left{
+    text-align: right !important;
+}
+
+.uk-text-right{
+    text-align: left !important;
+}
+
+.uk-navbar-left{
+	margin-right: 0 !important;
+	margin-left: auto !important;
+}
+
+.uk-navbar-right{
+	margin-left: 0 !important;
+	margin-right: auto !important;
+}
+
+.uk-subnav-divider > ::before{
+    margin-left: 20px !important;
+    margin-right: 0 !important;
+}
+
+.uk-subnav-divider > ::before{
+    margin-left: 20px !important;
+    margin-right: 0 !important;
+}
+
+.uk-margin-medium-right{
+	margin-left: 40px!important;
+	margin-right: 0!important;
+}
+
+.uk-margin-medium-left{
+	margin-right: 40px!important;
+	margin-left: 0!important;
+}
+
+.uk-margin-small-right{
+	margin-left: 6px!important;
+	margin-right: 0!important;
+}
+
+.uk-margin-small-left{
+	margin-right: 6px!important;
+	margin-left: 0!important;
+}
+
+.uk-flex-left {
+    justify-content: flex-start !important;
+}
+
+.uk-flex-right {
+    justify-content: flex-end !important;
+}
+
+.uk-button{
+    font-weight: 600 !important;
+}
+
+[class*='uk-modal-close-']{
+    right: inherit !important;
+    left: 10px !important;
+}
+
+.uk-alert p{
+    font-weight: 700 !important;
+}
+
+.uk-alert-close{
+    left: 15px !important;
+    right: inherit !important;
+}
+
+.resp-sharing-button i{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.fa-angle-right:before {
+    content: "\f104" !important;
+}
+
+@media (min-width: 640px) {
+    .uk-flex-left\@s {
+        justify-content:flex-start !important;
+    }
+
+    .uk-flex-right\@s {
+        justify-content: flex-end !important;
+    }
+
+    .uk-text-left\@s{
+        text-align: right !important;
+    }
+
+    .uk-text-right\@s{
+        text-align: left !important;
+    }
+
+}
+
+@media (min-width: 960px) {
+    .uk-flex-left\@m {
+        justify-content:flex-start !important;
+    }
+
+    .uk-flex-right\@m {
+        justify-content: flex-end !important;
+    }
+
+    .uk-text-left\@m{
+        text-align: right !important;
+    }
+
+    .uk-text-right\@m{
+        text-align: left !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .uk-flex-left\@l {
+        justify-content:flex-start !important;
+    }
+
+    .uk-flex-right\@l {
+        justify-content: flex-end !important;
+    }
+
+    .uk-text-left\@l{
+        text-align: right !important;
+    }
+
+    .uk-text-right\@l{
+        text-align: left !important;
+    }
+
+}
+
+@media (min-width: 1600px) {
+    .uk-flex-left\@xl {
+        justify-content:flex-start !important;
+    }
+
+    .uk-flex-right\@xl {
+        justify-content: flex-end !important;
+    }
+
+    .uk-text-left\@xl{
+        text-align: right !important;
+    }
+
+    .uk-text-right\@xl{
+        text-align: left !important;
+    }
+
+}
