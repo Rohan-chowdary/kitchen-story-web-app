@@ -3,7 +3,7 @@
 
 //URL PROJECT
 
-define ('SITE_URL', 'http://localhost/kitchen_story');
+define ('SITE_URL', 'https://72fb-2401-4900-6346-f69b-b9b9-3ea7-9b13-97df.ngrok-free.app/kitchen-story-web-app/');
 
 //DATABASE CONFIG
 
